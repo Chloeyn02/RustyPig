@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rusty Pig</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home"> 
+        <div class="image-container">
+            <img src="Images/RustyPig" alt="Image" class="fit-image">
+        </div>
+        <h1>Rusty Pig</h1>
+        <p>Soaps, Balms, And More</p>
+        <p> Hand Made in Jacksboro, TN</p>        
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>we seek to provide the best rusty pig experince</p>
+        <img src="Images/soap" alt="About Us">
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="card">
+            <h3>Friendly</h3>
+            <p>Pushing for outstanding customer service</p>
+        </div>
+        <div class="card">
+            <h3>All natural</h3>
+            <p>Supplying you with the safest and best smelling soaps</p>
+        </div>
+        <div class="card">
+            <h3>Jokes</h3>
+            <p>Putting a smile on your face</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Awesome Website | All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
